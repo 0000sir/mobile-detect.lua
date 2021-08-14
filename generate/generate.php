@@ -26,7 +26,7 @@ if ($argc > 1 && in_array($argv[1], array('--help', '-h'))) {
 	usage();
 }
 
-require_once dirname(__FILE__).'/../../Mobile-Detect/Mobile_Detect.php';
+require_once dirname(__FILE__).'/../Mobile-Detect/Mobile_Detect.php';
 
 class Mobile_Detect_Exporter extends Mobile_Detect {
 
